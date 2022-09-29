@@ -1,0 +1,18 @@
+[env]
+base_url = http://api.lemonban.com/futureloan
+headers_v1 = {"X-Lemonban-Media-Type": "lemonban.v1","Content-Type": "application/json"}
+
+
+[logging]
+name = mylog
+level = DEBUG
+filename = log.log
+sh_level = DEBUG
+fh_level = DEBUG
+
+
+[mysql]
+host = api.lemonban.com
+port = 3306
+user = future
+password = 123456
